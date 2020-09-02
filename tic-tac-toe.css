@@ -1,0 +1,22 @@
+﻿div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+    width: 606px;
+    height: 606px;
+}
+
+.PlayerO {
+    background-image: url('o.png');
+    background-size: cover;
+}
+
+.PlayerX {
+    background-image: url('x.png');
+}
